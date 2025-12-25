@@ -117,3 +117,6 @@ jB12iv+M0D3N9kmIxeFN6yH7k9rtHUUuXWTSjSB99Fdv6qA=
 update-ca-trust
 rustup default stable
 %end
+
+# Reboot After Installation
+reboot --eject
