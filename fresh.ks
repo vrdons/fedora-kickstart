@@ -114,7 +114,19 @@ jB12iv+M0D3N9kmIxeFN6yH7k9rtHUUuXWTSjSB99Fdv6qA=
 %end
 
 %post
+# For Meb CA
 update-ca-trust
+
+# Enable/disable GPG keys for installed repos
+cat <<EOF >> /etc/yum.repos.d/prismlauncher.repo
+gpgkey=https://download.copr.fedorainfracloud.org/results/g3tchoo/prismlauncher/pubkey.gpg
+gpgcheck=1
+EOF
+
+cat <<EOF >> /etc/yum.repos.d/terra.repo
+gpgcheck=0
+EOF
+
 rustup default stable
 %end
 
