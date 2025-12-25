@@ -8,7 +8,6 @@ repo --name=rpmfusion-nonfree --mirrorlist="https://mirrors.rpmfusion.org/mirror
 repo --name=rpmfusion-nonfree-updates --mirrorlist="https://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-43&arch=x86_64" --cost=0
 # terra$releasever
 repo --name=terra --baseurl="https://repos.fyralabs.com/terra43/"
-repo --name=prismlauncher --baseurl=https://download.copr.fedorainfracloud.org/results/g3tchoo/prismlauncher/fedora-43-x86_64/
 
 
 # Remove all existing partitions
@@ -84,8 +83,6 @@ zed
 # Security
 keepassxc
 
-# Game
-prismlauncher
 %end
 
 
@@ -118,14 +115,15 @@ jB12iv+M0D3N9kmIxeFN6yH7k9rtHUUuXWTSjSB99Fdv6qA=
 update-ca-trust
 
 # Enable/disable GPG keys for installed repos
-cat <<EOF >> /etc/yum.repos.d/prismlauncher.repo
-gpgkey=https://download.copr.fedorainfracloud.org/results/g3tchoo/prismlauncher/pubkey.gpg
-gpgcheck=1
-EOF
 
 cat <<EOF >> /etc/yum.repos.d/terra.repo
 gpgcheck=0
 EOF
+
+# Enable/install copr packages
+
+sudo dnf copr enable g3tchoo/prismlauncher
+sudo dnf install prismlauncher
 
 rustup default stable
 %end
