@@ -8,6 +8,7 @@ repo --name=rpmfusion-nonfree --mirrorlist="https://mirrors.rpmfusion.org/mirror
 repo --name=rpmfusion-nonfree-updates --mirrorlist="https://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-43&arch=x86_64" --cost=0
 # terra$releasever
 repo --name=terra --baseurl="https://repos.fyralabs.com/terra43/"
+repo --name=prismlauncher --baseurl=https://download.copr.fedorainfracloud.org/results/g3tchoo/prismlauncher/fedora-43-x86_64/
 
 
 # Remove all existing partitions
@@ -53,6 +54,7 @@ services --enabled=gdm
 --excludeWeakdeps
 rpmfusion-free-release
 rpmfusion-nonfree-release
+dnf-plugins-core
 
 # Install desktop environment
 @^workstation-product-environment
@@ -81,6 +83,9 @@ zed
 
 # Security
 keepassxc
+
+# Game
+prismlauncher
 %end
 
 
