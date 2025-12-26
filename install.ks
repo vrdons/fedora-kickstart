@@ -21,6 +21,9 @@ part swap --size=0 --hibernation
 # Create / (root) partition
 part / --fstype=xfs --size=40000 --grow
 
+# Configure Firewall
+firewall --enabled
+
 # Configure Network Interface
 network --bootproto=dhcp --device=link --activate
 
