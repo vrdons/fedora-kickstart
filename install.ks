@@ -107,6 +107,12 @@ keepassxc
 
 %post
 
+# Install prismlauncher gpg key
+cat <<EOF >> /etc/yum.repos.d/prismlauncher.repo
+gpgkey=https://download.copr.fedorainfracloud.org/results/g3tchoo/prismlauncher/pubkey.gpg
+gpgcheck=1
+EOF
+
 %end
 
 # Reboot After Installation
