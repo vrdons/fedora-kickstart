@@ -67,6 +67,9 @@ gnome-tweaks
 @multimedia
 vlc
 intel-media-driver
+ffmpeg
+vlc-plugin-ffmpeg
+
 
 # Office
 @libreoffice
