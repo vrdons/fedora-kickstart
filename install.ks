@@ -68,7 +68,7 @@ gnome-tweaks
 
 # Multimedia
 @multimedia
-vlc
+@vlc
 intel-media-driver
 ffmpeg
 vlc-plugin-ffmpeg
