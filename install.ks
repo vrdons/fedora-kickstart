@@ -67,6 +67,10 @@ intel-media-driver
 @libreoffice
 libreoffice-langpack-tr
 
+# Network
+@networkmanager-submodules
+firefox
+
 %end
 # Reboot After Installation
 reboot --eject
