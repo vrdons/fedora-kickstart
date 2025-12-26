@@ -111,6 +111,13 @@ prismlauncher
 keepassxc
 pinta
 
+# Windows Apps
+wine
+wine-mono
+winetricks
+wine-dxvk
+bottles
+
 %end
 
 %post
