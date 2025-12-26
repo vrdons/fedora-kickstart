@@ -55,6 +55,11 @@ dnf-plugins-core
 @fonts
 gnome-tweaks
 
+# Multimedia
+@multimedia
+vlc
+intel-media-driver
+
 %end
 # Reboot After Installation
 reboot --eject
