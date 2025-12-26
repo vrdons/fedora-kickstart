@@ -12,6 +12,7 @@ repo --name=terra --baseurl="https://repos.fyralabs.com/terra43/"
 
 # Copr Repos
 repo --name=prismlauncher --baseurl=https://download.copr.fedorainfracloud.org/results/g3tchoo/prismlauncher/fedora-43-x86_64/
+repo --name=freedownloadmanager --baseurl=https://download.copr.fedorainfracloud.org/results/agonie/freedownloadmanager/fedora-43-x86_64/
 
 # Remove all existing partitions
 clearpart --all --initlabel
@@ -93,6 +94,10 @@ nodejs-esbuild
 
 # Gaming
 prismlauncher
+
+# Personal
+freedownloadmanager
+
 %end
 # Reboot After Installation
 reboot --eject
