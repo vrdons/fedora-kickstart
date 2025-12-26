@@ -16,6 +16,14 @@ part / --fstype=xfs --size=40000 --grow
 # Configure Network Interface
 network --bootproto=dhcp --device=link --activate
 
+# Configure Keyboard Layouts
+keyboard --vckeymap=tr --xlayouts=tr
+
+# Configure Language During Installation
+lang tr_TR.UTF-8
+
+# Configure Time Zone
+timezone Europe/Istanbul
 
 # Perform Installation in Graphical Mode
 graphical
