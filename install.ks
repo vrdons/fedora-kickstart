@@ -87,10 +87,12 @@ vlc-plugin-ffmpeg
 # Office
 @libreoffice
 libreoffice-langpack-tr
+calibre
 
 # Network
 @networkmanager-submodules
 @firefox
+thunderbird
 
 # Dev
 @development-tools
@@ -107,6 +109,7 @@ prismlauncher
 
 # Personal
 keepassxc
+pinta
 
 %end
 
