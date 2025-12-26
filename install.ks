@@ -59,9 +59,6 @@ services --enabled=gdm
 rpmfusion-free-release
 rpmfusion-nonfree-release
 dnf-plugins-core
-unzip
-zip
-tar
 
 # Desktop environment
 @^workstation-product-environment
