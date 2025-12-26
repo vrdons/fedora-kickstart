@@ -102,5 +102,10 @@ prismlauncher
 keepassxc
 
 %end
+
+%post
+
+%end
+
 # Reboot After Installation
 reboot --eject
