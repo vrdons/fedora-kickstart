@@ -103,6 +103,7 @@ bun-bin
 nodejs
 nodejs-npm
 nodejs-esbuild
+qrencode
 
 # Database
 postgresql
