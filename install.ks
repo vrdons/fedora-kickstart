@@ -97,6 +97,7 @@ prismlauncher
 
 # Personal
 freedownloadmanager
+keepassxc
 
 %end
 # Reboot After Installation
