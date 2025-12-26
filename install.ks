@@ -27,3 +27,6 @@ timezone Europe/Istanbul
 
 # Perform Installation in Graphical Mode
 graphical
+
+# Reboot After Installation
+reboot --eject
