@@ -71,6 +71,11 @@ libreoffice-langpack-tr
 @networkmanager-submodules
 firefox
 
+# Dev
+@development-tools
+rustup
+rust-analyzer
+
 %end
 # Reboot After Installation
 reboot --eject
