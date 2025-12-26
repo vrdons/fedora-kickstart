@@ -60,6 +60,10 @@ gnome-tweaks
 vlc
 intel-media-driver
 
+# Office
+@libreoffice
+libreoffice-langpack-tr
+
 %end
 # Reboot After Installation
 reboot --eject
