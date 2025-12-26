@@ -104,6 +104,10 @@ nodejs
 nodejs-npm
 nodejs-esbuild
 
+# Database
+postgresql
+pgadmin4
+
 # Gaming
 prismlauncher
 
