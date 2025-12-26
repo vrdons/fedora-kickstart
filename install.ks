@@ -54,6 +54,11 @@ services --enabled=gdm
 
 # Install additional packages
 %packages --excludedocs --excludeWeakdeps
+# Dont Needed
+-mediawriter
+-showtime
+-papers
+
 # Needed
 rpmfusion-free-release
 rpmfusion-nonfree-release
