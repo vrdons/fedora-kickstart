@@ -83,7 +83,7 @@ libreoffice-langpack-tr
 
 # Network
 @networkmanager-submodules
-firefox
+@firefox
 
 # Dev
 @development-tools
