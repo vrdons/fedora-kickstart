@@ -62,6 +62,8 @@ unzip
 zip
 tar
 flatpak
+nano
+vim
 
 # Desktop environment
 @^workstation-product-environment
