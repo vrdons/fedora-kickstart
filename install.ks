@@ -61,6 +61,7 @@ dnf-plugins-core
 unzip
 zip
 tar
+flatpak
 
 # Desktop environment
 @^workstation-product-environment
